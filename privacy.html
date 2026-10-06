@@ -1,11 +1,79 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Privacy Policy — Hefto</title><style>body{margin:0;background:#F4F0E8;color:#1E2227;font:17px/1.6 -apple-system,system-ui,sans-serif}main{max-width:680px;margin:0 auto;padding:48px 22px 80px}h1{font:800 32px/1.15 -apple-system,system-ui,sans-serif;margin:0 0 6px}h2{font:700 19px/1.3 -apple-system,system-ui,sans-serif;margin:30px 0 8px}a{color:#7A1F2B}.muted{color:#6C6F74;font-size:14px}.rule{height:6px;width:64px;border-radius:3px;background:#7A1F2B;margin:14px 0 22px}li{margin:4px 0}.note{background:#E9E3D8;border-radius:14px;padding:14px 18px}@media (prefers-color-scheme:dark){body{background:#141619;color:#F1EDE6}a{color:#C4515F}.muted{color:#A4A6AA}.note{background:#2A2D31}}</style></head><body><main><h1>Privacy Policy</h1><p class="muted">Hefto: Rucking Tracker · Last updated September 28, 2026</p><div class="rule"></div>
-<p>Hefto tracks weighted walks (rucks). Your routes, rucks, body weight and pack weight stay on your iPhone and Apple Watch. There are no accounts, no server that stores your rucks, and we don't sell or share your data.</p>
-<h2>What stays on your devices</h2><ul><li>Your rucks: time, distance, pace, climb, pack weight, ground and estimated calories.</li><li>Routes (GPS points) recorded while a ruck is running.</li><li>Your body weight, pack weight, units, goal and program progress.</li></ul>
-<h2>Location</h2><p>Hefto uses your location only while a ruck is running, to draw the route and measure distance, pace and climb. It keeps working with the screen off during a ruck (the blue location indicator shows). Location is never sent to us or anyone else.</p>
-<h2>Apple Health and Apple Watch</h2><p>If you turn it on, Hefto saves each ruck to Apple Health as a walking workout with distance and active energy. On Apple Watch, Hefto reads heart rate and walking distance during a ruck. Health data is never used for advertising and never leaves your devices through Hefto. Rucks recorded on the watch are sent to the Hefto app on your paired iPhone.</p>
-<h2>Purchases</h2><p>Subscriptions are processed by Apple through the App Store. Hefto receives only the status of your purchase, never your payment details. We use a subscription-management service (Adapty) that receives an anonymous app-install identifier, purchase status and your first-run answers in general form (goal, pack weight, days per week) to validate purchases and measure how the paywall performs. It never receives your routes, rucks or health data.</p>
-<h2>Analytics and tracking</h2><p>Hefto does not track you across apps or websites, does not use advertising identifiers and contains no third-party analytics beyond the subscription service above. There are no ads.</p>
-<h2>Deleting your data</h2><p>Swipe a ruck in the Log to delete it, or delete Hefto from your iPhone to remove everything it stored. Workouts saved to Apple Health can be removed in the Health app.</p>
-<h2>Not medical advice</h2><p class="note">Calories in Hefto are estimates based on your weight, load, pace, grade and ground (the Pandolf load-carriage equation). They are not a medical measurement. Talk to your doctor before starting a new training program.</p>
-<h2>Children</h2><p>Hefto is not directed at children under 13.</p>
-<h2>Changes</h2><p>If this policy changes, the new version will be posted on this page with a new date.</p><p>Questions: <a href="mailto:nastya.shchaveleva@internet.ru">nastya.shchaveleva@internet.ru</a></p></main></body></html>
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Privacy · Hefto</title><meta name="description" content="What Hefto reads, stores and shares.">
+<style>
+:root{--bg:#f4f0e8;--card:#fffdf8;--ink:#1e2227;--dust:#5f6267;--accent:#7a1f2b;--seam:#e4ddd0;--ok:#2e6656}
+@media (prefers-color-scheme:dark){:root{--bg:#141619;--card:#1d2024;--ink:#f1ede6;--dust:#a4a6aa;--accent:#d86c79;--seam:#2c3035;--ok:#6fb39c}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 -apple-system,"SF Pro Text","Helvetica Neue",Arial,sans-serif}
+.bar{background:var(--accent);color:#fff}
+.bar div{max-width:760px;margin:0 auto;padding:14px 20px;display:flex;flex-wrap:wrap;gap:6px 22px;align-items:baseline}
+.bar b{font:800 22px/1 "Avenir Next Condensed","Arial Narrow",Impact,sans-serif;letter-spacing:.06em;text-transform:uppercase;margin-right:auto}
+.bar a{color:#fff;text-decoration:none;font:700 13px/1 "Avenir Next Condensed","Arial Narrow",sans-serif;letter-spacing:.1em;text-transform:uppercase;opacity:.85}
+.bar a[aria-current]{opacity:1;border-bottom:2px solid #fff;padding-bottom:3px}
+main{max-width:760px;margin:0 auto;padding:30px 20px 60px}
+h1{font:800 40px/1.05 "Avenir Next Condensed","Arial Narrow",Impact,sans-serif;text-transform:uppercase;margin:0 0 6px}
+h2{font:700 22px/1.2 "Avenir Next Condensed","Arial Narrow",sans-serif;text-transform:uppercase;letter-spacing:.04em;color:var(--accent);margin:36px 0 8px;padding-top:14px;border-top:3px solid var(--ink)}
+.stamp{color:var(--dust);font-size:14px;margin:0 0 22px}
+.lede{font-size:19px;background:var(--card);border-left:6px solid var(--accent);padding:14px 18px;margin:18px 0}
+table{width:100%;border-collapse:collapse;background:var(--card);margin:12px 0;font-size:15.5px}
+th,td{text-align:left;vertical-align:top;padding:10px 12px;border:1px solid var(--seam)}
+th{font:700 13px/1.2 "Avenir Next Condensed","Arial Narrow",sans-serif;letter-spacing:.1em;text-transform:uppercase;background:var(--seam)}
+td.y{color:var(--ok);font-weight:700;white-space:nowrap}td.n{color:var(--accent);font-weight:700;white-space:nowrap}
+a{color:var(--accent)}
+details{background:var(--card);border:1px solid var(--seam);margin:10px 0;padding:2px 16px}
+summary{cursor:pointer;font-weight:700;padding:12px 0}
+ul{padding-left:22px}li{margin:5px 0}
+footer{max-width:760px;margin:0 auto;padding:18px 20px 40px;color:var(--dust);font-size:13px;border-top:1px solid var(--seam)}
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin:18px 0}
+.tiles a{display:block;background:var(--card);border:1px solid var(--seam);border-top:4px solid var(--accent);padding:16px;text-decoration:none;color:var(--ink)}
+.tiles strong{display:block;font:800 20px/1.1 "Avenir Next Condensed","Arial Narrow",sans-serif;text-transform:uppercase;margin-bottom:4px}
+</style></head><body>
+<header class="bar"><div><b>Hefto</b><a href="index.html">Trailhead</a><a href="privacy.html" aria-current=page>Privacy</a><a href="terms.html">Terms</a><a href="support.html">Help</a></div></header>
+<main>
+<h1>Privacy</h1><p class="stamp">Revised October 6, 2026</p>
+<p class="lede">Short version: your routes, pack weights and heart-rate numbers stay on your own devices. The only outside service in the app is Adapty, which looks after Pro purchases.</p>
+
+<h2>The ledger: what Hefto touches</h2>
+<table>
+<tr><th>Item</th><th>Used for</th><th>Where it sits</th><th>Leaves your device?</th></tr>
+<tr><td>Location (while you ruck)</td><td>Route line, distance, pace, climb</td><td>Saved inside each ruck in the app's local database on your iPhone</td><td class="n">No</td></tr>
+<tr><td>Body weight and pack weight</td><td>Calorie estimate with the Pandolf equation</td><td>Stored in the app's own settings on the phone</td><td class="n">No</td></tr>
+<tr><td>Heart rate and distance from Apple Watch</td><td>Average heart rate shown on the ruck summary</td><td>Only the average is saved with that ruck</td><td class="n">No</td></tr>
+<tr><td>Apple Health (only if you switch it on)</td><td>Writing one walking workout, with distance and active energy, per ruck</td><td>Apple Health, controlled by you</td><td class="n">Not to us</td></tr>
+<tr><td>Subscription state, anonymous profile ID, app version, onboarding step</td><td>Unlocking Pro, restoring purchases, spotting where setup confuses people</td><td>Adapty servers</td><td class="y">Yes, to Adapty</td></tr>
+</table>
+
+<h2>GPS on the trail</h2>
+<p>Hefto asks for location only when you are using the app. Once you start a ruck it keeps recording with the screen locked, then stops the moment you finish. It samples roughly every three meters of movement. While a ruck is running, a small recovery file is written to the app's private folder so a crash or a phone restart does not eat your walk. We never see any of these points, and the app has no map-tile or routing service attached to it.</p>
+
+<h2>Apple Watch</h2>
+<p>If you start a ruck from your wrist, the Watch app records the workout session itself, using the Watch's GPS and heart sensor, and hands the result to the iPhone over Apple's built-in Watch link. No third party sits in that path.</p>
+
+<h2>Apple Health</h2>
+<p>The switch is called <b>Save rucks to Apple Health</b> in Settings and starts off. When on, Hefto adds a walking workout with distance and active energy. The iPhone app does not read your Health records. You can pull permission back anytime in the Health app under Sharing, then Apps.</p>
+
+<h2>Purchases and Adapty</h2>
+<p>Pro runs through Apple's in-app purchase system. Apple takes your payment details; Hefto never sees a card number. Adapty, a subscription-infrastructure company, receives the purchase receipt, an anonymous profile ID, your device model and OS version, your approximate country as inferred from the App Store storefront, and a few counters such as how far you got in onboarding. It uses them to tell the app whether you have Pro. Adapty publishes its own policy at adapty.io.</p>
+<p>We do not use advertising SDKs, we do not follow you across other companies' apps, and we do not sell anything about you.</p>
+
+<h2>Sending us feedback</h2>
+<p>The <b>Send feedback</b> button opens a pre-addressed email in your mail app. It pre-fills the app version, your iOS version and your Adapty profile ID so we can find the right purchase record. You can delete those lines before sending.</p>
+
+<h2>Clearing it out</h2>
+<ul>
+<li>One walk: in the Log tab, swipe it and tap <b>Delete</b>.</li>
+<li>Everything on the phone: delete Hefto from your home screen; the routes and settings go with it.</li>
+<li>Workouts already placed in Apple Health: remove them in the Health app.</li>
+<li>Adapty's copy: email us from the address in the footer and we will have the profile erased.</li>
+</ul>
+
+<h2>Who this is for</h2>
+<p>Hefto is a tool for adults and teens. A child younger than 13 should not use it, and if we learn one has, the Adapty record gets erased on request.</p>
+
+<h2>If this page changes</h2>
+<p>A revision gets a new date at the top. Larger shifts will be mentioned inside the app's release notes.</p>
+<p>Questions: <a href="mailto:nastya.shchaveleva@internet.ru">nastya.shchaveleva@internet.ru</a></p>
+</main>
+<footer>Hefto, the rucking tracker. Last revised October 6, 2026. Mail: <a href="mailto:nastya.shchaveleva@internet.ru">nastya.shchaveleva@internet.ru</a></footer>
+</body></html>
